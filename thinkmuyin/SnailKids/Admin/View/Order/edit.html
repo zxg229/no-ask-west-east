@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title>Order Edit</title>
+    <!--<link href="{$Think.const.ADMIN_PUBLIC_CSS}bootstrap.min.css" rel="stylesheet" type="text/css">-->
+    <link rel="stylesheet" type="text/css" href="//cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap.min.css"/>
+    <link href="{$Think.const.ADMIN_PUBLIC_CSS}sk_common.css" rel="stylesheet">
+    <script src="{$Think.const.ADMIN_PUBLIC_JS}jquery-2.2.4.min.js"></script>
+    <script src="{$Think.const.ADMIN_PUBLIC_JS}bootstrap.min.js"></script>
+    <script type="text/javascript">
+    	$(document).ready(function(){			
+			
+			$("#saveLink").click(function(){		
+				$("#editForm").submit();
+			});
+			
+    	});
+    </script>
+</head>
+<body>
+
+<div class="container-fluid" style="padding: 15px;">
+	<div class="row">
+		<div class="col-xs-6 sk_col text-left" style="font-size: 14px;">
+			<span class="glyphicon glyphicon-tags"></span>&nbsp;&nbsp;<b>订单</b>&nbsp;&nbsp;<small style="color: #999999;">Order management</small>
+		</div>
+		<div class="col-xs-6 sk_col text-right" style="color: #444444;">
+			<span class="glyphicon glyphicon-home"></span>&nbsp;&nbsp;Home&nbsp;&nbsp;&rsaquo;&nbsp;&nbsp;
+			<span class="glyphicon glyphicon-calendar"></span>&nbsp;&nbsp;Order&nbsp;&nbsp;&rsaquo;&nbsp;&nbsp;
+			Edit
+		</div>
+	</div>
+	
+	<div class="row" style="margin-top: 15px;">
+		<!-- 表单开始 -->
+		<form id="editForm" method="post" action="__CONTROLLER__/editDo/id/{$id}/p/{$pageNow}/where/{$where}/order/{$order}" style="margin: 0px; padding: 0px;">
+		
+		<!-- add left-->
+		<div class="col-xs-6 sk_col" style="padding-right: 5px;">
+			<div class="sk_option_back" style="border-top-color: #00A65A;">
+				
+				<div class="row" style="height:30px; line-height:30px;border-bottom: 1px dotted #EEEEEE; margin-bottom: 15px;">
+					<div class="col-xs-6 sk_col">审核当前订单</div>
+					<div class="col-xs-6 sk_col text-right" id="alert"></div>
+				</div>
+				
+				<div style="margin-bottom: 15px; border-bottom: 1px dotted #EEEEEE;">
+  					<p><b>订单ID：</b>&nbsp;&nbsp;{$orderRow.id}</p>
+  					<p><b>客户名称：</b>&nbsp;&nbsp;{$orderRow.realname}</p>
+  					<p><b>客户性别：</b>&nbsp;&nbsp;
+  						<switch name="orderRow.sex">
+  							<case value="0">女</case>
+  							<case value="1">男</case>
+  						</switch>
+  					</p>
+  					<p><b>客户电话：</b>&nbsp;&nbsp;{$orderRow.phone}</p>
+  					<p><b>客户地址：</b>&nbsp;&nbsp;{$orderRow.address}</p>
+  					<p><b>详细地址：</b>&nbsp;&nbsp;{$orderRow.address_detail}</p>
+  					<p><b>拍摄时间：</b>&nbsp;&nbsp;{$orderRow.order_time}</p>
+  					<p><b>备注信息：</b>&nbsp;&nbsp;{$orderRow.note}</p>
+  					<p><b>订单类型：</b>&nbsp;&nbsp;
+  						<switch name="orderRow.type">
+  							<case value="0">订制预约</case>
+  							<case value="1">套餐预约</case>
+  						</switch>
+  					</p>
+  				</div>
+  				
+  				<div style="margin-bottom: 15px;">
+  					<p><b>订单产生时间：</b>&nbsp;&nbsp;{$orderRow.add_time|date="m-d H:i",###}</p>
+  					<p><b>最近修改时间：</b>&nbsp;&nbsp;{$orderRow.edit_time|date="m-d H:i",###}</p>
+  					<p><b>修改管理员名：</b>&nbsp;&nbsp;{$orderRow.admin_name}</p>
+  				</div>
+  				
+				
+			</div>
+		</div>
+		
+		<!-- add right-->
+		<div class="col-xs-6 sk_col" style="padding-left: 5px;">
+			<div class="sk_option_back" style="border-top-color: #00A65A;">
+				
+				<div class="row" style="height:30px; line-height:30px;border-bottom: 1px dotted #EEEEEE; margin-bottom: 15px;">
+				</div>
+				
+				<if condition="$orderRow.type eq 0">
+					
+				<div style="margin-bottom: 15px; border-bottom: 1px dotted #EEEEEE;">
+  					<p><b>拍摄阶段：</b>&nbsp;&nbsp;{$orderDetailRow.phase_name}</p>
+  					<p><b>拍摄主题：</b>&nbsp;&nbsp;{$orderDetailRow.theme_name}</p>
+  					<p><b>拍摄时长：</b>&nbsp;&nbsp;{$orderDetailRow.duration}</p>
+  					<p><b>是否自撰稿：</b>&nbsp;&nbsp;
+  						<switch name="orderDetailRow.writting">
+  							<case value="0">否</case>
+  							<case value="1">是</case>
+  						</switch>
+  					</p>
+  					<p><b>是否带妆：</b>&nbsp;&nbsp;
+  						<switch name="orderDetailRow.makeup">
+  							<case value="0">否</case>
+  							<case value="1">是</case>
+  						</switch>
+  					</p>
+  					<p><b>是否免灯：</b>&nbsp;&nbsp;
+  						<switch name="orderDetailRow.light">
+  							<case value="0">否</case>
+  							<case value="1">是</case>
+  						</switch>
+  					</p>
+  					<p><b>是否需要额外道具：</b>&nbsp;&nbsp;
+  						<switch name="orderDetailRow.prop">
+  							<case value="0">否</case>
+  							<case value="1">是</case>
+  						</switch>
+  					</p>
+  					<p><b>后期呈现效果是否有特殊要求：</b>&nbsp;&nbsp;
+  						<switch name="orderDetailRow.request">
+  							<case value="0">否</case>
+  							<case value="1">是</case>
+  						</switch>
+  					</p>
+  				</div>
+					
+				</if>
+				
+				<if condition="$orderRow.type eq 1">
+					<div style="margin-bottom: 15px; border-bottom: 1px dotted #EEEEEE;">
+					<p><b>套餐选择：</b>&nbsp;&nbsp;{$packageRow.name} - ￥{$packageRow.price} - {$packageRow.alias}</p>
+					</div>
+				</if>
+				
+				<div class="form-group">
+					<label for="state">订单状态</label>
+					<select class="form-control sk_input" id="state" name="state">
+						<option value="0" <if condition="$orderRow.state eq 0">selected="selected"</if> >已作废</option>
+						<option value="1" <if condition="$orderRow.state eq 1">selected="selected"</if> >已提交</option>
+						<option value="2" <if condition="$orderRow.state eq 2">selected="selected"</if> >已联络</option>
+						<option value="3" <if condition="$orderRow.state eq 3">selected="selected"</if> >已完成</option>
+					</select>
+					<span class="help-block sk_help_block"><span class="glyphicon glyphicon-info-sign"></span>&nbsp;&nbsp;请勿随意变更订单状态 您的操作将被记录在系统中</span>
+				</div>
+				
+				<div class="form-group">
+					<label for="pay">支付状态</label>
+					<select class="form-control sk_input" id="pay" name="pay">
+						<option value="0" <if condition="$orderRow.pay eq 0">selected="selected"</if> >未支付</option>
+						<option value="1" <if condition="$orderRow.pay eq 1">selected="selected"</if> >已支付</option>
+					</select>
+					<span class="help-block sk_help_block"><span class="glyphicon glyphicon-info-sign"></span>&nbsp;&nbsp;请勿随意变更支付状态 您的操作将被记录在系统中</span>
+				</div>
+				
+				<div class="form-group">
+					<a id="saveLink" class="btn-success sk_submitbtn" href="#"><span class="glyphicon glyphicon-edit"></span>&nbsp;&nbsp;保存 save</a>
+					<a id="back" class="btn-warning sk_submitbtn" href="__CONTROLLER__/index/p/{$pageNow}/where/{$where}/order/{$order}"><span class="glyphicon glyphicon-share"></span>&nbsp;&nbsp;放弃 back</a>
+				</div>
+				
+			</div>
+		</div>
+		</form><!-- 表单结束 -->
+		
+	</div>
+	
+</div>
+
+</body>
+</html>

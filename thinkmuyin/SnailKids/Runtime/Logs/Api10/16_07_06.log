@@ -1,0 +1,98 @@
+[ 2016-07-06T14:28:54+08:00 ] ::1 /snailkids.php/Api10/Package/getAll
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000656s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000959s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001097s ]
+SQL: SHOW COLUMNS FROM `sk_package` [ RunTime:0.0239s ]
+SQL: SELECT `id`,`name` FROM `sk_package` WHERE `enable` = 1 ORDER BY id  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: image_path_group D:\Programs\wamp\www3\SnailKids\Api10\Controller\PackageController.class.php 第 109 行.
+NOTIC: [8] Undefined index: alias D:\Programs\wamp\www3\SnailKids\Api10\Controller\PackageController.class.php 第 117 行.
+NOTIC: [8] Undefined index: price D:\Programs\wamp\www3\SnailKids\Api10\Controller\PackageController.class.php 第 118 行.
+NOTIC: [8] Undefined index: content D:\Programs\wamp\www3\SnailKids\Api10\Controller\PackageController.class.php 第 119 行.
+NOTIC: [8] Undefined index: describe D:\Programs\wamp\www3\SnailKids\Api10\Controller\PackageController.class.php 第 120 行.
+NOTIC: [8] Undefined index: cover_path D:\Programs\wamp\www3\SnailKids\Api10\Controller\PackageController.class.php 第 121 行.
+NOTIC: [8] Undefined index: image_path_group D:\Programs\wamp\www3\SnailKids\Api10\Controller\PackageController.class.php 第 109 行.
+NOTIC: [8] Undefined index: alias D:\Programs\wamp\www3\SnailKids\Api10\Controller\PackageController.class.php 第 117 行.
+NOTIC: [8] Undefined index: price D:\Programs\wamp\www3\SnailKids\Api10\Controller\PackageController.class.php 第 118 行.
+NOTIC: [8] Undefined index: content D:\Programs\wamp\www3\SnailKids\Api10\Controller\PackageController.class.php 第 119 行.
+NOTIC: [8] Undefined index: describe D:\Programs\wamp\www3\SnailKids\Api10\Controller\PackageController.class.php 第 120 行.
+NOTIC: [8] Undefined index: cover_path D:\Programs\wamp\www3\SnailKids\Api10\Controller\PackageController.class.php 第 121 行.
+NOTIC: [8] Undefined index: image_path_group D:\Programs\wamp\www3\SnailKids\Api10\Controller\PackageController.class.php 第 109 行.
+NOTIC: [8] Undefined index: alias D:\Programs\wamp\www3\SnailKids\Api10\Controller\PackageController.class.php 第 117 行.
+NOTIC: [8] Undefined index: price D:\Programs\wamp\www3\SnailKids\Api10\Controller\PackageController.class.php 第 118 行.
+NOTIC: [8] Undefined index: content D:\Programs\wamp\www3\SnailKids\Api10\Controller\PackageController.class.php 第 119 行.
+NOTIC: [8] Undefined index: describe D:\Programs\wamp\www3\SnailKids\Api10\Controller\PackageController.class.php 第 120 行.
+NOTIC: [8] Undefined index: cover_path D:\Programs\wamp\www3\SnailKids\Api10\Controller\PackageController.class.php 第 121 行.
+NOTIC: [8] Undefined index: image_path_group D:\Programs\wamp\www3\SnailKids\Api10\Controller\PackageController.class.php 第 109 行.
+NOTIC: [8] Undefined index: alias D:\Programs\wamp\www3\SnailKids\Api10\Controller\PackageController.class.php 第 117 行.
+NOTIC: [8] Undefined index: price D:\Programs\wamp\www3\SnailKids\Api10\Controller\PackageController.class.php 第 118 行.
+NOTIC: [8] Undefined index: content D:\Programs\wamp\www3\SnailKids\Api10\Controller\PackageController.class.php 第 119 行.
+NOTIC: [8] Undefined index: describe D:\Programs\wamp\www3\SnailKids\Api10\Controller\PackageController.class.php 第 120 行.
+NOTIC: [8] Undefined index: cover_path D:\Programs\wamp\www3\SnailKids\Api10\Controller\PackageController.class.php 第 121 行.
+
+[ 2016-07-06T14:29:39+08:00 ] ::1 /snailkids.php/Api10/Package/getAll
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000640s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001886s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002099s ]
+SQL: SHOW COLUMNS FROM `sk_package` [ RunTime:0.0119s ]
+SQL: SELECT `id`,`name` FROM `sk_package` WHERE `enable` = 1 ORDER BY id  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: image_path_group D:\Programs\wamp\www3\SnailKids\Api10\Controller\PackageController.class.php 第 109 行.
+NOTIC: [8] Undefined index: alias D:\Programs\wamp\www3\SnailKids\Api10\Controller\PackageController.class.php 第 117 行.
+NOTIC: [8] Undefined index: price D:\Programs\wamp\www3\SnailKids\Api10\Controller\PackageController.class.php 第 118 行.
+NOTIC: [8] Undefined index: content D:\Programs\wamp\www3\SnailKids\Api10\Controller\PackageController.class.php 第 119 行.
+NOTIC: [8] Undefined index: describe D:\Programs\wamp\www3\SnailKids\Api10\Controller\PackageController.class.php 第 120 行.
+NOTIC: [8] Undefined index: cover_path D:\Programs\wamp\www3\SnailKids\Api10\Controller\PackageController.class.php 第 121 行.
+NOTIC: [8] Undefined index: image_path_group D:\Programs\wamp\www3\SnailKids\Api10\Controller\PackageController.class.php 第 109 行.
+NOTIC: [8] Undefined index: alias D:\Programs\wamp\www3\SnailKids\Api10\Controller\PackageController.class.php 第 117 行.
+NOTIC: [8] Undefined index: price D:\Programs\wamp\www3\SnailKids\Api10\Controller\PackageController.class.php 第 118 行.
+NOTIC: [8] Undefined index: content D:\Programs\wamp\www3\SnailKids\Api10\Controller\PackageController.class.php 第 119 行.
+NOTIC: [8] Undefined index: describe D:\Programs\wamp\www3\SnailKids\Api10\Controller\PackageController.class.php 第 120 行.
+NOTIC: [8] Undefined index: cover_path D:\Programs\wamp\www3\SnailKids\Api10\Controller\PackageController.class.php 第 121 行.
+NOTIC: [8] Undefined index: image_path_group D:\Programs\wamp\www3\SnailKids\Api10\Controller\PackageController.class.php 第 109 行.
+NOTIC: [8] Undefined index: alias D:\Programs\wamp\www3\SnailKids\Api10\Controller\PackageController.class.php 第 117 行.
+NOTIC: [8] Undefined index: price D:\Programs\wamp\www3\SnailKids\Api10\Controller\PackageController.class.php 第 118 行.
+NOTIC: [8] Undefined index: content D:\Programs\wamp\www3\SnailKids\Api10\Controller\PackageController.class.php 第 119 行.
+NOTIC: [8] Undefined index: describe D:\Programs\wamp\www3\SnailKids\Api10\Controller\PackageController.class.php 第 120 行.
+NOTIC: [8] Undefined index: cover_path D:\Programs\wamp\www3\SnailKids\Api10\Controller\PackageController.class.php 第 121 行.
+NOTIC: [8] Undefined index: image_path_group D:\Programs\wamp\www3\SnailKids\Api10\Controller\PackageController.class.php 第 109 行.
+NOTIC: [8] Undefined index: alias D:\Programs\wamp\www3\SnailKids\Api10\Controller\PackageController.class.php 第 117 行.
+NOTIC: [8] Undefined index: price D:\Programs\wamp\www3\SnailKids\Api10\Controller\PackageController.class.php 第 118 行.
+NOTIC: [8] Undefined index: content D:\Programs\wamp\www3\SnailKids\Api10\Controller\PackageController.class.php 第 119 行.
+NOTIC: [8] Undefined index: describe D:\Programs\wamp\www3\SnailKids\Api10\Controller\PackageController.class.php 第 120 行.
+NOTIC: [8] Undefined index: cover_path D:\Programs\wamp\www3\SnailKids\Api10\Controller\PackageController.class.php 第 121 行.
+
+[ 2016-07-06T14:30:00+08:00 ] ::1 /snailkids.php/Api10/Package/getAll
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000921s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001447s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001664s ]
+SQL: SHOW COLUMNS FROM `sk_package` [ RunTime:0.0114s ]
+SQL: SELECT * FROM `sk_package` WHERE `enable` = 1 ORDER BY id  [ RunTime:0.0005s ]
+
+[ 2016-07-06T14:30:10+08:00 ] ::1 /snailkids.php/Api10/Package/getAll
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000668s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001147s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001321s ]
+SQL: SHOW COLUMNS FROM `sk_package` [ RunTime:0.0108s ]
+SQL: SELECT * FROM `sk_package` WHERE `enable` = 1 ORDER BY id  [ RunTime:0.0005s ]
+
+[ 2016-07-06T14:30:13+08:00 ] ::1 /snailkids.php/Api10/Package/getAll
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000698s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001042s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001178s ]
+SQL: SHOW COLUMNS FROM `sk_package` [ RunTime:0.0097s ]
+SQL: SELECT * FROM `sk_package` WHERE `enable` = 1 ORDER BY id  [ RunTime:0.0005s ]
+

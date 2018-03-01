@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		
+		<style type="text/css">
+*{margin: 0;padding: 0;}
+body{background: url({$backImg});}
+.line{border-bottom: 1px dotted #999;}
+.num{height: 25px; line-height: 25px;} .num img{height: 18px; width: auto; display: inline-block;} .num b{display: inline-block;color: #999; margin-left: 5px; font-size: 14px;}
+h5{margin: 20px 0px; text-indent: 2em; line-height: 1.5;}
+h6{margin-top: 20px; color: #666; }
+.praise{margin: 20px 0px;} .praise img{height:auto; width:10%; border-radius: 2px;  display: inline-block; margin: 5px;}
+</style>
+		
+		
+	</head>
+	<body>
+		
+		
+		
+		
+		
+		<div class="container-fluid">
+<div class="row">
+<div class="col-xs-12 col-sm-12 col-md-10 col-md-offset-1 col-lg-8 col-lg-offset-2">
+	
+	<h4>小蜗牛母婴电影&nbsp;-&nbsp;{$themeName}</h4>
+	<h3>{$videoTitle}</h3>
+	<div class="line"></div>
+	<h6>&nbsp;>>&nbsp;{$videoTime}</h6>
+
+	<div>
+		<video width="100%" height="auto" poster="{$videoCover}" preload controls="controls">
+			<!-- MP4 must be first for iPad! -->
+			<source src="{$videoPath}" type="video/mp4"  /><!-- Safari / iOS, IE9 -->
+			<!-- fallback to Flash: -->
+			<object width="100%" height="auto" type="application/x-shockwave-flash" data="video/player.swf">
+				<!-- Firefox uses the `data` attribute above, IE/Safari uses the param below -->
+				<param name="movie" value="video/player.swf" />
+				<param name="flashvars" value="autostart=true&amp;controlbar=over&amp;image=poster.jpg&amp;file=video/demo0.mp4.mp4" />
+				<!-- fallback image -->
+				<img src="video/thumb0.jpg" width="100%" height="auto" alt="Big Buck Bunny"
+	     			title="No video playback capabilities, please download the video below" />
+			</object>
+		</video>
+	</div>
+	
+	<h6>&nbsp;>>&nbsp;Comment:{$videoComment}&nbsp;Play:{$videoPlay}&nbsp;Praise:{$videoPraise}</h6>
+	
+	<h5>{$videoIntroduce}</h5>
+	
+	<div class="line"></div>
+	
+	
+</div>
+</div>
+</div>
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	</body>
+</html>

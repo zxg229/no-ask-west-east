@@ -1,0 +1,75 @@
+[ 2016-07-05T14:56:41+08:00 ] ::1 /snailkids.php/Api10/Active/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000578s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000807s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000931s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000068s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000196s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030709s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030880s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000531s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000716s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000846s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000963s ]
+
+[ 2016-07-05T15:53:23+08:00 ] ::1 /snailkids.php/Api10/Package/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000608s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001017s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001199s ]
+SQL: SHOW COLUMNS FROM `sk_package` [ RunTime:0.0095s ]
+SQL: SELECT `id`,`name` FROM `sk_package` WHERE `enable` = 1 ORDER BY id  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `sk_package` WHERE `enable` = 1 AND `id` = 1 LIMIT 1   [ RunTime:0.0015s ]
+
+[ 2016-07-05T15:53:36+08:00 ] ::1 /snailkids.php/Api10/Package/index/package_id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000591s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000971s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001124s ]
+SQL: SHOW COLUMNS FROM `sk_package` [ RunTime:0.0098s ]
+SQL: SELECT `id`,`name` FROM `sk_package` WHERE `enable` = 1 ORDER BY id  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `sk_package` WHERE `enable` = 1 AND `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2016-07-05T15:53:42+08:00 ] ::1 /snailkids.php/Api10/Package/index/package_id/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000829s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000917s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001048s ]
+SQL: SHOW COLUMNS FROM `sk_package` [ RunTime:0.0099s ]
+SQL: SELECT `id`,`name` FROM `sk_package` WHERE `enable` = 1 ORDER BY id  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `sk_package` WHERE `enable` = 1 AND `id` = 1 LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2016-07-05T15:53:47+08:00 ] ::1 /snailkids.php/Api10/Package/index/package_id/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000585s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000901s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001026s ]
+SQL: SHOW COLUMNS FROM `sk_package` [ RunTime:0.0096s ]
+SQL: SELECT `id`,`name` FROM `sk_package` WHERE `enable` = 1 ORDER BY id  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `sk_package` WHERE `enable` = 1 AND `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2016-07-05T15:53:51+08:00 ] ::1 /snailkids.php/Api10/Package/index/package_id/4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000588s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000887s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001013s ]
+SQL: SHOW COLUMNS FROM `sk_package` [ RunTime:0.0089s ]
+SQL: SELECT `id`,`name` FROM `sk_package` WHERE `enable` = 1 ORDER BY id  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `sk_package` WHERE `enable` = 1 AND `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+

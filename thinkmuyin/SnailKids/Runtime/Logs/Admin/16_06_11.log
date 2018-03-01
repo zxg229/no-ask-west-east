@@ -1,0 +1,27 @@
+[ 2016-06-11T12:27:27+08:00 ] ::1 /snailkids.php/Admin/User/editDo/id/6/p/1/where/all/order/id_desc
+ERR: 非法操作:editDo
+
+[ 2016-06-11T12:28:06+08:00 ] ::1 /snailkids.php/Admin/User/editDo/id/6/p/1/where/all/order/id_desc
+ERR: 非法操作:editDo
+
+[ 2016-06-11T12:28:13+08:00 ] ::1 /snailkids.php/Admin/User/editDo/id/6/p/1/where/all/order/id_desc
+ERR: 非法操作:editDo
+
+[ 2016-06-11T12:28:18+08:00 ] ::1 /snailkids.php/Admin/User/editDo/id/6/p/1/where/all/order/id_desc
+ERR: 非法操作:editDo
+
+[ 2016-06-11T13:12:08+08:00 ] ::1 /snailkids.php/Admin/User/show/id/4/p/1/where/all/order/id_desc
+ERR: 非法操作:show
+
+[ 2016-06-11T19:26:42+08:00 ] ::1 /snailkids.php/Admin/User/show/id/5/p/1/where/all/order/id_desc
+ERR: 模板不存在:./SnailKids/Admin/View/User/show.html
+
+[ 2016-06-11T20:51:23+08:00 ] ::1 /snailkids.php/Admin/User/p/1/where/all/order/id_desc
+ERR: 非法操作:p
+
+[ 2016-06-11T20:52:02+08:00 ] ::1 /snailkids.php/Admin/User/p/1/where/all/order/id_desc
+ERR: 非法操作:p
+
+[ 2016-06-11T20:53:23+08:00 ] ::1 /snailkids.php/Admin/Area/district
+ERR: 无法加载控制器:Area
+

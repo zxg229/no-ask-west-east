@@ -1,0 +1,631 @@
+[ 2016-06-16T14:41:34+08:00 ] ::1 /snailkids.php/Admin/Index/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000670s ]
+
+[ 2016-06-16T14:41:34+08:00 ] ::1 /snailkids.php/Admin/Index/verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001014s ]
+
+[ 2016-06-16T14:41:39+08:00 ] ::1 /snailkids.php/Admin/Index/loginDo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000639s ]
+
+[ 2016-06-16T14:41:39+08:00 ] ::1 /snailkids.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000696s ]
+
+[ 2016-06-16T14:41:39+08:00 ] ::1 /snailkids.php/Admin/Index/top
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000975s ]
+
+[ 2016-06-16T14:41:39+08:00 ] ::1 /snailkids.php/Admin/Index/left
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001037s ]
+
+[ 2016-06-16T14:41:40+08:00 ] ::1 /snailkids.php/Admin/Welcome/welcome
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000979s ]
+
+[ 2016-06-16T14:41:42+08:00 ] ::1 /snailkids.php/Admin/Order/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000619s ]
+ERR: 模板不存在:./SnailKids/Admin/View/Order/index.html
+
+[ 2016-06-16T14:42:07+08:00 ] ::1 /snailkids.php/Admin/Order/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000620s ]
+
+[ 2016-06-16T14:43:48+08:00 ] ::1 /snailkids.php/Admin/Order/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000720s ]
+
+[ 2016-06-16T14:44:08+08:00 ] ::1 /snailkids.php/Admin/Order/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000645s ]
+
+[ 2016-06-16T14:44:18+08:00 ] ::1 /snailkids.php/Admin/Order/index/p/1/where/type0/order/id_desc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000662s ]
+
+[ 2016-06-16T14:44:24+08:00 ] ::1 /snailkids.php/Admin/Order/index/p/1/where/type1/order/id_desc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000719s ]
+
+[ 2016-06-16T14:44:27+08:00 ] ::1 /snailkids.php/Admin/Order/index/p/1/where/type0/order/id_desc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000598s ]
+
+[ 2016-06-16T14:44:30+08:00 ] ::1 /snailkids.php/Admin/Order/index/p/1/where/pay0/order/id_desc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000595s ]
+
+[ 2016-06-16T14:44:32+08:00 ] ::1 /snailkids.php/Admin/Order/index/p/1/where/pay1/order/id_desc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000577s ]
+
+[ 2016-06-16T14:44:35+08:00 ] ::1 /snailkids.php/Admin/Order/index/p/1/where/state0/order/id_desc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000073s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000788s ]
+
+[ 2016-06-16T14:44:37+08:00 ] ::1 /snailkids.php/Admin/Order/index/p/1/where/state1/order/id_desc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000632s ]
+
+[ 2016-06-16T14:44:40+08:00 ] ::1 /snailkids.php/Admin/Order/index/p/1/where/state2/order/id_desc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000582s ]
+
+[ 2016-06-16T14:44:42+08:00 ] ::1 /snailkids.php/Admin/Order/index/p/1/where/state3/order/id_desc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000575s ]
+
+[ 2016-06-16T14:44:43+08:00 ] ::1 /snailkids.php/Admin/Order/index/p/1/where/all/order/id_desc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000871s ]
+
+[ 2016-06-16T14:44:48+08:00 ] ::1 /snailkids.php/Admin/Order/index/p/1/where/all/order/add_time
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000572s ]
+
+[ 2016-06-16T14:44:49+08:00 ] ::1 /snailkids.php/Admin/Order/index/p/1/where/all/order/add_time
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000785s ]
+
+[ 2016-06-16T14:45:17+08:00 ] ::1 /snailkids.php/Admin/Order/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000586s ]
+
+[ 2016-06-16T14:45:56+08:00 ] ::1 /snailkids.php/Admin/Order/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000597s ]
+
+[ 2016-06-16T14:47:01+08:00 ] ::1 /snailkids.php/Admin/Order/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000611s ]
+
+[ 2016-06-16T14:47:20+08:00 ] ::1 /snailkids.php/Admin/Order/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000575s ]
+
+[ 2016-06-16T14:47:25+08:00 ] ::1 /snailkids.php/Admin/Order/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000575s ]
+
+[ 2016-06-16T15:03:04+08:00 ] ::1 /snailkids.php/Admin/Order/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000585s ]
+
+[ 2016-06-16T15:04:28+08:00 ] ::1 /snailkids.php/Admin/Order/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000588s ]
+
+[ 2016-06-16T15:04:46+08:00 ] ::1 /snailkids.php/Admin/Order/index/p/1/where/all/order/order_time
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000592s ]
+
+[ 2016-06-16T15:04:48+08:00 ] ::1 /snailkids.php/Admin/Order/index/p/1/where/all/order/order_time_desc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000584s ]
+
+[ 2016-06-16T15:04:52+08:00 ] ::1 /snailkids.php/Admin/Order/index/p/1/where/all/order/add_time
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000579s ]
+
+[ 2016-06-16T15:04:54+08:00 ] ::1 /snailkids.php/Admin/Order/index/p/1/where/all/order/add_time_desc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000573s ]
+
+[ 2016-06-16T15:04:55+08:00 ] ::1 /snailkids.php/Admin/Order/index/p/1/where/all/order/edit_time
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000609s ]
+
+[ 2016-06-16T15:04:57+08:00 ] ::1 /snailkids.php/Admin/Order/index/p/1/where/all/order/edit_time_desc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000577s ]
+
+[ 2016-06-16T15:05:04+08:00 ] ::1 /snailkids.php/Admin/Order/index/p/1/where/all/order/order_time
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000614s ]
+
+[ 2016-06-16T15:05:28+08:00 ] ::1 /snailkids.php/Admin/Order/index/p/1/where/type0/order/id_desc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000829s ]
+
+[ 2016-06-16T15:05:33+08:00 ] ::1 /snailkids.php/Admin/Order/index/p/1/where/all/order/id_desc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000588s ]
+
+[ 2016-06-16T15:08:42+08:00 ] ::1 /snailkids.php/Admin/Order/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000583s ]
+
+[ 2016-06-16T15:08:50+08:00 ] ::1 /snailkids.php/Admin/Order/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000585s ]
+
+[ 2016-06-16T15:10:08+08:00 ] ::1 /snailkids.php/Admin/Order/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000583s ]
+ERR: 1052:Column 'id' in order clause is ambiguous
+ [ SQL语句 ] : SELECT * FROM `sk_order` INNER JOIN sk_admin ON sk_order.admin_id = sk_admin.id  ORDER BY id desc LIMIT 0,5  
+
+[ 2016-06-16T15:11:25+08:00 ] ::1 /snailkids.php/Admin/Order/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000597s ]
+
+[ 2016-06-16T15:11:46+08:00 ] ::1 /snailkids.php/Admin/Order/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000897s ]
+
+[ 2016-06-16T15:12:00+08:00 ] ::1 /snailkids.php/Admin/Order/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000590s ]
+
+[ 2016-06-16T15:12:01+08:00 ] ::1 /snailkids.php/Admin/Order/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000602s ]
+
+[ 2016-06-16T15:12:20+08:00 ] ::1 /snailkids.php/Admin/Order/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000575s ]
+
+[ 2016-06-16T15:12:54+08:00 ] ::1 /snailkids.php/Admin/Order/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000578s ]
+ERR: 1052:Column 'realname' in field list is ambiguous
+ [ SQL语句 ] : SELECT sk_order.id as oid,`realname`,`admin_id` FROM `sk_order` INNER JOIN sk_admin ON sk_order.admin_id = sk_admin.id  ORDER BY id desc LIMIT 0,5  
+
+[ 2016-06-16T15:13:56+08:00 ] ::1 /snailkids.php/Admin/Order/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000675s ]
+ERR: 1052:Column 'id' in order clause is ambiguous
+ [ SQL语句 ] : SELECT sk_order.id as oid,sk_order.realname as orealname,`admin_id` FROM `sk_order` INNER JOIN sk_admin ON sk_order.admin_id = sk_admin.id  ORDER BY id desc LIMIT 0,5  
+
+[ 2016-06-16T15:14:23+08:00 ] ::1 /snailkids.php/Admin/Order/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000567s ]
+ERR: 1052:Column 'id' in order clause is ambiguous
+ [ SQL语句 ] : SELECT sk_order.id as oid,sk_order.realname as orealname,`admin_id`,sk_admin.id as aid FROM `sk_order` INNER JOIN sk_admin ON sk_order.admin_id = sk_admin.id  ORDER BY id desc LIMIT 0,5  
+
+[ 2016-06-16T15:15:37+08:00 ] ::1 /snailkids.php/Admin/Order/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000591s ]
+ERR: 1052:Column 'id' in order clause is ambiguous
+ [ SQL语句 ] : SELECT * FROM `sk_order` INNER JOIN sk_admin ON sk_order.admin_id = sk_admin.id  ORDER BY id desc LIMIT 0,5  
+
+[ 2016-06-16T15:17:04+08:00 ] ::1 /snailkids.php/Admin/Order/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000063s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001312s ]
+
+[ 2016-06-16T15:17:27+08:00 ] ::1 /snailkids.php/Admin/Order/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000590s ]
+
+[ 2016-06-16T15:17:28+08:00 ] ::1 /snailkids.php/Admin/Order/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000602s ]
+
+[ 2016-06-16T15:17:29+08:00 ] ::1 /snailkids.php/Admin/Order/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000586s ]
+
+[ 2016-06-16T15:17:29+08:00 ] ::1 /snailkids.php/Admin/Order/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000575s ]
+
+[ 2016-06-16T15:17:29+08:00 ] ::1 /snailkids.php/Admin/Order/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000695s ]
+
+[ 2016-06-16T15:17:29+08:00 ] ::1 /snailkids.php/Admin/Order/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000708s ]
+
+[ 2016-06-16T15:17:29+08:00 ] ::1 /snailkids.php/Admin/Order/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000572s ]
+
+[ 2016-06-16T15:17:30+08:00 ] ::1 /snailkids.php/Admin/Order/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000723s ]
+
+[ 2016-06-16T15:17:58+08:00 ] ::1 /snailkids.php/Admin/Order/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000667s ]
+
+[ 2016-06-16T15:18:48+08:00 ] ::1 /snailkids.php/Admin/Order/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000628s ]
+
+[ 2016-06-16T15:24:40+08:00 ] ::1 /snailkids.php/Admin/Order/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000615s ]
+
+[ 2016-06-16T15:36:04+08:00 ] ::1 /snailkids.php/Admin/Order/edit/id/2/p/1/where/all/order/id_desc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000605s ]
+
+[ 2016-06-16T15:37:31+08:00 ] ::1 /snailkids.php/Admin/Order/edit/id/2/p/1/where/all/order/id_desc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000606s ]
+
+[ 2016-06-16T15:37:36+08:00 ] ::1 /snailkids.php/Admin/Order/edit/id/1/p/1/where/all/order/id_desc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000597s ]
+
+[ 2016-06-16T15:37:38+08:00 ] ::1 /snailkids.php/Admin/Order/edit/id/2/p/1/where/all/order/id_desc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000586s ]
+
+[ 2016-06-16T15:37:42+08:00 ] ::1 /snailkids.php/Admin/Order/edit/id/1/p/1/where/all/order/id_desc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000675s ]
+
+[ 2016-06-16T15:39:25+08:00 ] ::1 /snailkids.php/Admin/Order/edit/id/1/p/1/where/all/order/id_desc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000606s ]
+
+[ 2016-06-16T15:39:32+08:00 ] ::1 /snailkids.php/Admin/Order/edit/id/1/p/1/where/all/order/id_desc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000655s ]
+
+[ 2016-06-16T15:39:34+08:00 ] ::1 /snailkids.php/Admin/Order/edit/id/1/p/1/where/all/order/id_desc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000581s ]
+
+[ 2016-06-16T15:39:45+08:00 ] ::1 /snailkids.php/Admin/Order/edit/id/1/p/1/where/all/order/id_desc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000634s ]
+
+[ 2016-06-16T15:39:49+08:00 ] ::1 /snailkids.php/Admin/Order/edit/id/1/p/1/where/all/order/id_desc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000607s ]
+
+[ 2016-06-16T15:40:12+08:00 ] ::1 /snailkids.php/Admin/Order/edit/id/1/p/1/where/all/order/id_desc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000703s ]
+
+[ 2016-06-16T15:40:45+08:00 ] ::1 /snailkids.php/Admin/Order/edit/id/1/p/1/where/all/order/id_desc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000622s ]
+
+[ 2016-06-16T15:41:27+08:00 ] ::1 /snailkids.php/Admin/Order/edit/id/1/p/1/where/all/order/id_desc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000606s ]
+
+[ 2016-06-16T15:41:47+08:00 ] ::1 /snailkids.php/Admin/Order/edit/id/1/p/1/where/all/order/id_desc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000608s ]
+
+[ 2016-06-16T15:43:39+08:00 ] ::1 /snailkids.php/Admin/Order/edit/id/1/p/1/where/all/order/id_desc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000601s ]
+
+[ 2016-06-16T15:44:09+08:00 ] ::1 /snailkids.php/Admin/Order/edit/id/1/p/1/where/all/order/id_desc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000610s ]
+
+[ 2016-06-16T15:47:29+08:00 ] ::1 /snailkids.php/Admin/Order/edit/id/1/p/1/where/all/order/id_desc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000585s ]
+
+[ 2016-06-16T15:48:52+08:00 ] ::1 /snailkids.php/Admin/Order/edit/id/1/p/1/where/all/order/id_desc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000603s ]
+
+[ 2016-06-16T15:49:08+08:00 ] ::1 /snailkids.php/Admin/Order/edit/id/1/p/1/where/all/order/id_desc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000607s ]
+
+[ 2016-06-16T15:50:29+08:00 ] ::1 /snailkids.php/Admin/Order/edit/id/1/p/1/where/all/order/id_desc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001046s ]
+
+[ 2016-06-16T15:50:34+08:00 ] ::1 /snailkids.php/Admin/Order/edit/id/1/p/1/where/all/order/id_desc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000708s ]
+
+[ 2016-06-16T15:50:54+08:00 ] ::1 /snailkids.php/Admin/Order/edit/id/1/p/1/where/all/order/id_desc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000583s ]
+
+[ 2016-06-16T15:50:58+08:00 ] ::1 /snailkids.php/Admin/Order/edit/id/2/p/1/where/all/order/id_desc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000577s ]
+
+[ 2016-06-16T15:52:10+08:00 ] ::1 /snailkids.php/Admin/Order/edit/id/2/p/1/where/all/order/id_desc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000916s ]
+
+[ 2016-06-16T15:52:13+08:00 ] ::1 /snailkids.php/Admin/Order/edit/id/1/p/1/where/all/order/id_desc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000597s ]
+
+[ 2016-06-16T16:06:23+08:00 ] ::1 /snailkids.php/Admin/Order/edit/id/1/p/1/where/all/order/id_desc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000627s ]
+
+[ 2016-06-16T16:06:31+08:00 ] ::1 /snailkids.php/Admin/Order/edit/id/1/p/1/where/all/order/id_desc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000580s ]
+
+[ 2016-06-16T16:06:32+08:00 ] ::1 /snailkids.php/Admin/Order/edit/id/2/p/1/where/all/order/id_desc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000577s ]
+
+[ 2016-06-16T16:06:44+08:00 ] ::1 /snailkids.php/Admin/Order/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000642s ]
+
+[ 2016-06-16T16:06:47+08:00 ] ::1 /snailkids.php/Admin/Order/edit/id/2/p/1/where/all/order/id_desc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000627s ]
+
+[ 2016-06-16T16:07:00+08:00 ] ::1 /snailkids.php/Admin/Order/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000757s ]
+
+[ 2016-06-16T16:07:01+08:00 ] ::1 /snailkids.php/Admin/Order/edit/id/2/p/1/where/all/order/id_desc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000583s ]
+
+[ 2016-06-16T16:07:05+08:00 ] ::1 /snailkids.php/Admin/Order/edit/id/1/p/1/where/all/order/id_desc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001052s ]
+
+[ 2016-06-16T16:07:34+08:00 ] ::1 /snailkids.php/Admin/Order/edit/id/2/p/1/where/all/order/id_desc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001162s ]
+
+[ 2016-06-16T16:07:49+08:00 ] ::1 /snailkids.php/Admin/Order/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000584s ]
+
+[ 2016-06-16T16:07:50+08:00 ] ::1 /snailkids.php/Admin/Order/edit/id/1/p/1/where/all/order/id_desc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000843s ]
+
+[ 2016-06-16T16:08:08+08:00 ] ::1 /snailkids.php/Admin/Order/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000595s ]
+
+[ 2016-06-16T16:08:09+08:00 ] ::1 /snailkids.php/Admin/Order/edit/id/1/p/1/where/all/order/id_desc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000601s ]
+
+[ 2016-06-16T16:08:17+08:00 ] ::1 /snailkids.php/Admin/Order/edit/id/1/p/1/where/all/order/id_desc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000072s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001130s ]
+
+[ 2016-06-16T16:09:07+08:00 ] ::1 /snailkids.php/Admin/Order/edit/id/1/p/1/where/all/order/id_desc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000592s ]
+
+[ 2016-06-16T16:09:14+08:00 ] ::1 /snailkids.php/Admin/Order/edit/id/1/p/1/where/all/order/id_desc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000599s ]
+
+[ 2016-06-16T16:10:12+08:00 ] ::1 /snailkids.php/Admin/Order/edit/id/1/p/1/where/all/order/id_desc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000798s ]
+
+[ 2016-06-16T16:10:33+08:00 ] ::1 /snailkids.php/Admin/Order/edit/id/1/p/1/where/all/order/id_desc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000891s ]
+
+[ 2016-06-16T16:10:47+08:00 ] ::1 /snailkids.php/Admin/Order/edit/id/1/p/1/where/all/order/id_desc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000653s ]
+
+[ 2016-06-16T16:11:14+08:00 ] ::1 /snailkids.php/Admin/Order/edit/id/1/p/1/where/all/order/id_desc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000617s ]
+
+[ 2016-06-16T16:11:47+08:00 ] ::1 /snailkids.php/Admin/Order/edit/id/1/p/1/where/all/order/id_desc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000634s ]
+
+[ 2016-06-16T16:13:03+08:00 ] ::1 /snailkids.php/Admin/Order/edit/id/1/p/1/where/all/order/id_desc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000585s ]
+
+[ 2016-06-16T16:13:49+08:00 ] ::1 /snailkids.php/Admin/Order/edit/id/1/p/1/where/all/order/id_desc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000610s ]
+
+[ 2016-06-16T16:13:58+08:00 ] ::1 /snailkids.php/Admin/Order/edit/id/1/p/1/where/all/order/id_desc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000576s ]
+
+[ 2016-06-16T16:14:01+08:00 ] ::1 /snailkids.php/Admin/Order/edit/id/2/p/1/where/all/order/id_desc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000586s ]
+
+[ 2016-06-16T16:14:06+08:00 ] ::1 /snailkids.php/Admin/Order/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000579s ]
+
+[ 2016-06-16T16:14:08+08:00 ] ::1 /snailkids.php/Admin/Order/edit/id/1/p/1/where/all/order/id_desc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000574s ]
+
+[ 2016-06-16T16:14:22+08:00 ] ::1 /snailkids.php/Admin/Order/edit/id/2/p/1/where/all/order/id_desc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000589s ]
+
+[ 2016-06-16T16:24:00+08:00 ] ::1 /snailkids.php/Admin/Order/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000656s ]
+
+[ 2016-06-16T16:24:02+08:00 ] ::1 /snailkids.php/Admin/Order/edit/id/2/p/1/where/all/order/id_desc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000572s ]
+
+[ 2016-06-16T16:24:04+08:00 ] ::1 /snailkids.php/Admin/Order/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001073s ]
+
+[ 2016-06-16T16:24:06+08:00 ] ::1 /snailkids.php/Admin/Order/edit/id/2/p/1/where/all/order/id_desc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000758s ]
+
+[ 2016-06-16T16:24:13+08:00 ] ::1 /snailkids.php/Admin/Order/editDo/id/2/p/1/where/all/order/id_desc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000574s ]
+
+[ 2016-06-16T16:24:15+08:00 ] ::1 /snailkids.php/Admin/Order/index/p/1/where/all/order/id_desc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000591s ]
+
+[ 2016-06-16T16:24:35+08:00 ] ::1 /snailkids.php/Admin/Order/index/p/1/where/state2/order/id_desc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000624s ]
+
+[ 2016-06-16T16:24:37+08:00 ] ::1 /snailkids.php/Admin/Order/index/p/1/where/all/order/id_desc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000666s ]
+

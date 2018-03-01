@@ -1,0 +1,9 @@
+[ 2016-07-12T10:49:17+08:00 ] ::1 /snailkids.php/Api/Agreement/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002966s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.012629s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.012796s ]
+ERR: 无法加载控制器:Agreement
+

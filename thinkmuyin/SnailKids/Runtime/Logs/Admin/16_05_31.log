@@ -1,0 +1,15 @@
+[ 2016-05-31T14:36:22+08:00 ] ::1 /snailkids.php/Admin/Area/test
+ERR: 1054:Unknown column 'status' in 'where clause'
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `sk_test` WHERE ( status=1 ) LIMIT 1  
+
+[ 2016-05-31T14:40:37+08:00 ] ::1 /snailkids.php/Admin/Area/test
+ERR: 1054:Unknown column 'status' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `sk_test` WHERE ( status=1 ) ORDER BY create_time LIMIT 0,25  
+
+[ 2016-05-31T14:40:53+08:00 ] ::1 /snailkids.php/Admin/Area/test
+ERR: 1054:Unknown column 'create_time' in 'order clause'
+ [ SQL语句 ] : SELECT * FROM `sk_test` ORDER BY create_time LIMIT 0,25  
+
+[ 2016-05-31T15:33:20+08:00 ] ::1 /snailkids.php/Admin/Area/city
+ERR: 非法操作:city
+

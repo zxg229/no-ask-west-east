@@ -1,0 +1,9 @@
+[ 2016-07-06T14:28:47+08:00 ] ::1 /snailkids.php/Api/Package/getAll
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000746s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001014s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001157s ]
+ERR: 非法操作:getAll
+

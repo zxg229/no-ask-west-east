@@ -1,0 +1,506 @@
+[ 2016-06-14T13:24:18+08:00 ] ::1 /snailkids.php/Api/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000612s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000958s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001088s ]
+SQL: SHOW COLUMNS FROM `sk_trailer` [ RunTime:0.0096s ]
+SQL: SELECT `id`,`thumb_path` FROM `sk_trailer` WHERE `enable` = 1 ORDER BY edit_time desc LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `sk_photo` [ RunTime:0.0097s ]
+SQL: SELECT `id`,`introduce`,`image_path_group` FROM `sk_photo` WHERE `enable` = 1 ORDER BY edit_time desc LIMIT 3   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `sk_theme` [ RunTime:0.0105s ]
+SQL: SHOW COLUMNS FROM `sk_video` [ RunTime:0.0087s ]
+SQL: SELECT * FROM `sk_theme`  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `sk_video` WHERE `theme_id` = 1 AND `enable` = 1 ORDER BY edit_time desc LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `sk_video` WHERE `theme_id` = 2 AND `enable` = 1 ORDER BY edit_time desc LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `sk_video` WHERE `theme_id` = 3 AND `enable` = 1 ORDER BY edit_time desc LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2016-06-14T13:25:56+08:00 ] ::1 /snailkids.php/Api/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000588s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000913s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001073s ]
+SQL: SHOW COLUMNS FROM `sk_trailer` [ RunTime:0.0108s ]
+SQL: SELECT `id`,`thumb_path` FROM `sk_trailer` WHERE `enable` = 1 ORDER BY edit_time desc LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `sk_photo` [ RunTime:0.0071s ]
+SQL: SELECT `id`,`introduce`,`image_path_group` FROM `sk_photo` WHERE `enable` = 1 ORDER BY edit_time desc LIMIT 3   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `sk_theme` [ RunTime:0.0096s ]
+SQL: SHOW COLUMNS FROM `sk_video` [ RunTime:0.0067s ]
+SQL: SELECT * FROM `sk_theme`  [ RunTime:0.0003s ]
+SQL: SELECT `id`,`title` FROM `sk_video` WHERE `theme_id` = 1 AND `enable` = 1 ORDER BY edit_time desc LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `id`,`title` FROM `sk_video` WHERE `theme_id` = 2 AND `enable` = 1 ORDER BY edit_time desc LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `id`,`title` FROM `sk_video` WHERE `theme_id` = 3 AND `enable` = 1 ORDER BY edit_time desc LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2016-06-14T13:30:59+08:00 ] ::1 /snailkids.php/Api/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000884s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000941s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001075s ]
+SQL: SHOW COLUMNS FROM `sk_trailer` [ RunTime:0.0112s ]
+SQL: SELECT `id`,`thumb_path` FROM `sk_trailer` WHERE `enable` = 1 ORDER BY edit_time desc LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `sk_photo` [ RunTime:0.0077s ]
+SQL: SELECT `id`,`introduce`,`image_path_group` FROM `sk_photo` WHERE `enable` = 1 ORDER BY edit_time desc LIMIT 3   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `sk_theme` [ RunTime:0.0064s ]
+SQL: SHOW COLUMNS FROM `sk_video` [ RunTime:0.0075s ]
+SQL: SELECT * FROM `sk_theme`  [ RunTime:0.0003s ]
+SQL: SELECT `id`,`title` FROM `sk_video` WHERE `theme_id` = 1 AND `enable` = 1 ORDER BY edit_time desc LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `id`,`title` FROM `sk_video` WHERE `theme_id` = 2 AND `enable` = 1 ORDER BY edit_time desc LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `id`,`title` FROM `sk_video` WHERE `theme_id` = 3 AND `enable` = 1 ORDER BY edit_time desc LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2016-06-14T13:37:42+08:00 ] ::1 /snailkids.php/Api/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000673s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001095s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001288s ]
+SQL: SHOW COLUMNS FROM `sk_trailer` [ RunTime:0.0118s ]
+SQL: SELECT `id`,`thumb_path` FROM `sk_trailer` WHERE `enable` = 1 ORDER BY edit_time desc LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `sk_photo` [ RunTime:0.0072s ]
+SQL: SELECT `id`,`introduce`,`image_path_group` FROM `sk_photo` WHERE `enable` = 1 ORDER BY edit_time desc LIMIT 3   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `sk_theme` [ RunTime:0.0073s ]
+SQL: SHOW COLUMNS FROM `sk_video` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `sk_theme`  [ RunTime:0.0003s ]
+SQL: SELECT `id`,`title`,`cover_path` FROM `sk_video` WHERE `theme_id` = 1 AND `enable` = 1 ORDER BY edit_time desc LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `id`,`title`,`cover_path` FROM `sk_video` WHERE `theme_id` = 2 AND `enable` = 1 ORDER BY edit_time desc LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `id`,`title`,`cover_path` FROM `sk_video` WHERE `theme_id` = 3 AND `enable` = 1 ORDER BY edit_time desc LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2016-06-14T14:03:23+08:00 ] ::1 /snailkids.php/Api/Theme/themeId/1/p/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000696s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001209s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001388s ]
+ERR: 非法操作:themeId
+
+[ 2016-06-14T14:03:39+08:00 ] ::1 /snailkids.php/Api/Theme/index/themeId/1/p/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000674s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001089s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001292s ]
+SQL: SHOW COLUMNS FROM `sk_video` [ RunTime:0.0122s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sk_video` WHERE `theme_id` = 1 AND `enable` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `id`,`title`,`duration`,`cover_path`,`play_num`,`praise_num`,`comment_num` FROM `sk_video` WHERE `theme_id` = 1 AND `enable` = 1 ORDER BY edit_time desc LIMIT 0,5   [ RunTime:0.0005s ]
+NOTIC: [2] htmlspecialchars_decode() expects at most 2 parameters, 3 given D:\Programs\wamp\www3\SnailKids\Api\Controller\ThemeController.class.php 第 36 行.
+NOTIC: [2] htmlspecialchars_decode() expects at most 2 parameters, 3 given D:\Programs\wamp\www3\SnailKids\Api\Controller\ThemeController.class.php 第 37 行.
+
+[ 2016-06-14T14:04:27+08:00 ] ::1 /snailkids.php/Api/Theme/index/themeId/1/p/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000590s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000971s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001099s ]
+SQL: SHOW COLUMNS FROM `sk_video` [ RunTime:0.0088s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sk_video` WHERE `theme_id` = 1 AND `enable` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `id`,`title`,`duration`,`cover_path`,`play_num`,`praise_num`,`comment_num` FROM `sk_video` WHERE `theme_id` = 1 AND `enable` = 1 ORDER BY edit_time desc LIMIT 0,5   [ RunTime:0.0004s ]
+NOTIC: [2] htmlspecialchars_decode() expects at most 2 parameters, 3 given D:\Programs\wamp\www3\SnailKids\Api\Controller\ThemeController.class.php 第 37 行.
+NOTIC: [2] htmlspecialchars_decode() expects at most 2 parameters, 3 given D:\Programs\wamp\www3\SnailKids\Api\Controller\ThemeController.class.php 第 38 行.
+
+[ 2016-06-14T14:05:18+08:00 ] ::1 /snailkids.php/Api/Theme/index/themeId/1/p/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000582s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001210s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001378s ]
+SQL: SHOW COLUMNS FROM `sk_video` [ RunTime:0.0090s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sk_video` WHERE `theme_id` = 1 AND `enable` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `id`,`title`,`duration`,`cover_path`,`play_num`,`praise_num`,`comment_num` FROM `sk_video` WHERE `theme_id` = 1 AND `enable` = 1 ORDER BY edit_time desc LIMIT 0,5   [ RunTime:0.0005s ]
+NOTIC: [2] htmlspecialchars_decode() expects at most 2 parameters, 3 given D:\Programs\wamp\www3\SnailKids\Api\Controller\ThemeController.class.php 第 37 行.
+NOTIC: [2] htmlspecialchars_decode() expects at most 2 parameters, 3 given D:\Programs\wamp\www3\SnailKids\Api\Controller\ThemeController.class.php 第 39 行.
+
+[ 2016-06-14T14:05:47+08:00 ] ::1 /snailkids.php/Api/Theme/index/themeId/1/p/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000575s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000917s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001089s ]
+SQL: SHOW COLUMNS FROM `sk_video` [ RunTime:0.0095s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sk_video` WHERE `theme_id` = 1 AND `enable` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `id`,`title`,`duration`,`cover_path`,`play_num`,`praise_num`,`comment_num` FROM `sk_video` WHERE `theme_id` = 1 AND `enable` = 1 ORDER BY edit_time desc LIMIT 0,5   [ RunTime:0.0004s ]
+
+[ 2016-06-14T14:05:53+08:00 ] ::1 /snailkids.php/Api/Theme/index/themeId/1/p/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000587s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001320s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001490s ]
+SQL: SHOW COLUMNS FROM `sk_video` [ RunTime:0.0100s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sk_video` WHERE `theme_id` = 1 AND `enable` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `id`,`title`,`duration`,`cover_path`,`play_num`,`praise_num`,`comment_num` FROM `sk_video` WHERE `theme_id` = 1 AND `enable` = 1 ORDER BY edit_time desc LIMIT 5,5   [ RunTime:0.0004s ]
+
+[ 2016-06-14T14:05:57+08:00 ] ::1 /snailkids.php/Api/Theme/index/themeId/1/p/3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000577s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000901s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001026s ]
+SQL: SHOW COLUMNS FROM `sk_video` [ RunTime:0.0096s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sk_video` WHERE `theme_id` = 1 AND `enable` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `id`,`title`,`duration`,`cover_path`,`play_num`,`praise_num`,`comment_num` FROM `sk_video` WHERE `theme_id` = 1 AND `enable` = 1 ORDER BY edit_time desc LIMIT 10,5   [ RunTime:0.0004s ]
+
+[ 2016-06-14T14:06:01+08:00 ] ::1 /snailkids.php/Api/Theme/index/themeId/1/p/0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000572s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001074s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001243s ]
+SQL: SHOW COLUMNS FROM `sk_video` [ RunTime:0.0123s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sk_video` WHERE `theme_id` = 1 AND `enable` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `id`,`title`,`duration`,`cover_path`,`play_num`,`praise_num`,`comment_num` FROM `sk_video` WHERE `theme_id` = 1 AND `enable` = 1 ORDER BY edit_time desc LIMIT 0,5   [ RunTime:0.0004s ]
+
+[ 2016-06-14T14:06:05+08:00 ] ::1 /snailkids.php/Api/Theme/index/themeId/1/p/-1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000844s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000849s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000997s ]
+SQL: SHOW COLUMNS FROM `sk_video` [ RunTime:0.0097s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sk_video` WHERE `theme_id` = 1 AND `enable` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `id`,`title`,`duration`,`cover_path`,`play_num`,`praise_num`,`comment_num` FROM `sk_video` WHERE `theme_id` = 1 AND `enable` = 1 ORDER BY edit_time desc LIMIT 0,5   [ RunTime:0.0004s ]
+
+[ 2016-06-14T14:06:11+08:00 ] ::1 /snailkids.php/Api/Theme/index/themeId/1/p/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000573s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001040s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001213s ]
+SQL: SHOW COLUMNS FROM `sk_video` [ RunTime:0.0091s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sk_video` WHERE `theme_id` = 1 AND `enable` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `id`,`title`,`duration`,`cover_path`,`play_num`,`praise_num`,`comment_num` FROM `sk_video` WHERE `theme_id` = 1 AND `enable` = 1 ORDER BY edit_time desc LIMIT 0,5   [ RunTime:0.0004s ]
+
+[ 2016-06-14T14:06:21+08:00 ] ::1 /snailkids.php/Api/Theme/index/themeId/2/p/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000594s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001210s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001411s ]
+SQL: SHOW COLUMNS FROM `sk_video` [ RunTime:0.0090s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sk_video` WHERE `theme_id` = 2 AND `enable` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `id`,`title`,`duration`,`cover_path`,`play_num`,`praise_num`,`comment_num` FROM `sk_video` WHERE `theme_id` = 2 AND `enable` = 1 ORDER BY edit_time desc LIMIT 0,5   [ RunTime:0.0004s ]
+
+[ 2016-06-14T14:06:24+08:00 ] ::1 /snailkids.php/Api/Theme/index/themeId/1/p/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000574s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000850s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000974s ]
+SQL: SHOW COLUMNS FROM `sk_video` [ RunTime:0.0087s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sk_video` WHERE `theme_id` = 1 AND `enable` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `id`,`title`,`duration`,`cover_path`,`play_num`,`praise_num`,`comment_num` FROM `sk_video` WHERE `theme_id` = 1 AND `enable` = 1 ORDER BY edit_time desc LIMIT 0,5   [ RunTime:0.0004s ]
+
+[ 2016-06-14T14:06:26+08:00 ] ::1 /snailkids.php/Api/Theme/index/themeId/2/p/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000603s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000993s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001367s ]
+SQL: SHOW COLUMNS FROM `sk_video` [ RunTime:0.0097s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sk_video` WHERE `theme_id` = 2 AND `enable` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `id`,`title`,`duration`,`cover_path`,`play_num`,`praise_num`,`comment_num` FROM `sk_video` WHERE `theme_id` = 2 AND `enable` = 1 ORDER BY edit_time desc LIMIT 0,5   [ RunTime:0.0004s ]
+
+[ 2016-06-14T14:06:31+08:00 ] ::1 /snailkids.php/Api/Theme/index/themeId/3/p/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000626s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000980s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001155s ]
+SQL: SHOW COLUMNS FROM `sk_video` [ RunTime:0.0090s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sk_video` WHERE `theme_id` = 3 AND `enable` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `id`,`title`,`duration`,`cover_path`,`play_num`,`praise_num`,`comment_num` FROM `sk_video` WHERE `theme_id` = 3 AND `enable` = 1 ORDER BY edit_time desc LIMIT 0,5   [ RunTime:0.0004s ]
+
+[ 2016-06-14T14:31:28+08:00 ] ::1 /snailkids.php/Api/Video/index/videoId/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001030s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000959s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001095s ]
+SQL: SHOW COLUMNS FROM `sk_video` [ RunTime:0.0095s ]
+SQL: SELECT * FROM `sk_video` WHERE `id` = 1 AND `enable` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `sk_videopraise` [ RunTime:0.0079s ]
+SQL: SELECT * FROM `sk_videopraise` WHERE `video_id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `sk_userinfo` [ RunTime:0.0104s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sk_video` WHERE `id` = 1 AND `enable` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `id`,`title`,`duration`,`cover_path`,`play_num`,`praise_num`,`comment_num` FROM `sk_video` WHERE `id` = 1 AND `enable` = 1 ORDER BY edit_time desc LIMIT 0,5   [ RunTime:0.0003s ]
+
+[ 2016-06-14T14:32:02+08:00 ] ::1 /snailkids.php/Api/Video/index/videoId/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000751s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000985s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001117s ]
+SQL: SHOW COLUMNS FROM `sk_video` [ RunTime:0.0102s ]
+SQL: SELECT * FROM `sk_video` WHERE `id` = 1 AND `enable` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `sk_videopraise` [ RunTime:0.0076s ]
+SQL: SELECT * FROM `sk_videopraise` WHERE `video_id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `sk_userinfo` [ RunTime:0.0083s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sk_video` WHERE `id` = 1 AND `enable` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `id`,`title`,`duration`,`cover_path`,`play_num`,`praise_num`,`comment_num` FROM `sk_video` WHERE `id` = 1 AND `enable` = 1 ORDER BY edit_time desc LIMIT 0,5   [ RunTime:0.0003s ]
+
+[ 2016-06-14T14:32:20+08:00 ] ::1 /snailkids.php/Api/Video/index/videoId/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000090s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000676s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000949s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001076s ]
+SQL: SHOW COLUMNS FROM `sk_video` [ RunTime:0.0088s ]
+SQL: SELECT * FROM `sk_video` WHERE `id` = 1 AND `enable` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `sk_videopraise` [ RunTime:0.0075s ]
+SQL: SELECT * FROM `sk_videopraise` WHERE `video_id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `sk_userinfo` [ RunTime:0.0071s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001066s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001200s ]
+
+[ 2016-06-14T14:32:43+08:00 ] ::1 /snailkids.php/Api/Video/index/videoId/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000678s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000896s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001025s ]
+SQL: SHOW COLUMNS FROM `sk_video` [ RunTime:0.0118s ]
+SQL: SELECT * FROM `sk_video` WHERE `id` = 1 AND `enable` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `sk_videopraise` [ RunTime:0.0071s ]
+SQL: SELECT * FROM `sk_videopraise` WHERE `video_id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `sk_userinfo` [ RunTime:0.0076s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000940s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001062s ]
+
+[ 2016-06-14T14:33:18+08:00 ] ::1 /snailkids.php/Api/Video/index/videoId/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000583s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000939s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001105s ]
+SQL: SHOW COLUMNS FROM `sk_video` [ RunTime:0.0124s ]
+SQL: SELECT * FROM `sk_video` WHERE `id` = 1 AND `enable` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `sk_videopraise` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `sk_videopraise` WHERE `video_id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `sk_userinfo` [ RunTime:0.0078s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000954s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001077s ]
+
+[ 2016-06-14T14:34:32+08:00 ] ::1 /snailkids.php/Api/Video/index/videoId/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000917s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001060s ]
+SQL: SHOW COLUMNS FROM `sk_video` [ RunTime:0.0103s ]
+SQL: SELECT * FROM `sk_video` WHERE `id` = 1 AND `enable` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `sk_videopraise` [ RunTime:0.0082s ]
+SQL: SELECT * FROM `sk_videopraise` WHERE `video_id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `sk_userinfo` [ RunTime:0.0081s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000942s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001070s ]
+
+[ 2016-06-14T14:34:39+08:00 ] ::1 /snailkids.php/Api/Video/index/videoId/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000640s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000884s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001011s ]
+SQL: SHOW COLUMNS FROM `sk_video` [ RunTime:0.0092s ]
+SQL: SELECT * FROM `sk_video` WHERE `id` = 1 AND `enable` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `sk_videopraise` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `sk_videopraise` WHERE `video_id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `sk_userinfo` [ RunTime:0.0079s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000956s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001079s ]
+
+[ 2016-06-14T14:41:26+08:00 ] ::1 /snailkids.php/Api/Video/index/videoId/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000651s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001315s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001554s ]
+SQL: SHOW COLUMNS FROM `sk_video` [ RunTime:0.0119s ]
+SQL: SELECT * FROM `sk_video` WHERE `id` = 1 AND `enable` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `sk_videopraise` [ RunTime:0.0076s ]
+SQL: SELECT * FROM `sk_videopraise` WHERE `video_id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `sk_userinfo` [ RunTime:0.0069s ]
+SQL: SELECT * FROM `sk_userinfo` WHERE `user_id` = 6 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001094s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001275s ]
+
+[ 2016-06-14T14:41:45+08:00 ] ::1 /snailkids.php/Api/Video/index/videoId/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000881s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001326s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001538s ]
+SQL: SHOW COLUMNS FROM `sk_video` [ RunTime:0.0091s ]
+SQL: SELECT * FROM `sk_video` WHERE `id` = 1 AND `enable` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `sk_videopraise` [ RunTime:0.0075s ]
+SQL: SELECT * FROM `sk_videopraise` WHERE `video_id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `sk_userinfo` [ RunTime:0.0067s ]
+SQL: SELECT * FROM `sk_userinfo` WHERE `user_id` = 6 LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2016-06-14T14:42:27+08:00 ] ::1 /snailkids.php/Api/Video/index/videoId/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000590s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000844s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000980s ]
+SQL: SHOW COLUMNS FROM `sk_video` [ RunTime:0.0096s ]
+SQL: SELECT * FROM `sk_video` WHERE `id` = 1 AND `enable` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `sk_videopraise` [ RunTime:0.0073s ]
+SQL: SELECT * FROM `sk_videopraise` WHERE `video_id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `sk_userinfo` [ RunTime:0.0076s ]
+SQL: SELECT * FROM `sk_userinfo` WHERE `user_id` = 6 LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2016-06-14T14:42:54+08:00 ] ::1 /snailkids.php/Api/Video/index/videoId/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000605s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001199s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001376s ]
+SQL: SHOW COLUMNS FROM `sk_video` [ RunTime:0.0096s ]
+SQL: SELECT * FROM `sk_video` WHERE `id` = 1 AND `enable` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `sk_videopraise` [ RunTime:0.0082s ]
+SQL: SELECT * FROM `sk_videopraise` WHERE `video_id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `sk_userinfo` [ RunTime:0.0072s ]
+SQL: SELECT * FROM `sk_userinfo` WHERE `user_id` = 7 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `sk_userinfo` WHERE `user_id` = 6 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2016-06-14T14:43:00+08:00 ] ::1 /snailkids.php/Api/Video/index/videoId/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000587s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000930s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001090s ]
+SQL: SHOW COLUMNS FROM `sk_video` [ RunTime:0.0097s ]
+SQL: SELECT * FROM `sk_video` WHERE `id` = 1 AND `enable` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `sk_videopraise` [ RunTime:0.0065s ]
+SQL: SELECT * FROM `sk_videopraise` WHERE `video_id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `sk_userinfo` [ RunTime:0.0083s ]
+SQL: SELECT * FROM `sk_userinfo` WHERE `user_id` = 7 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `sk_userinfo` WHERE `user_id` = 6 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2016-06-14T14:43:02+08:00 ] ::1 /snailkids.php/Api/Video/index/videoId/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000582s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001060s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001221s ]
+SQL: SHOW COLUMNS FROM `sk_video` [ RunTime:0.0091s ]
+SQL: SELECT * FROM `sk_video` WHERE `id` = 1 AND `enable` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `sk_videopraise` [ RunTime:0.0069s ]
+SQL: SELECT * FROM `sk_videopraise` WHERE `video_id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `sk_userinfo` [ RunTime:0.0082s ]
+SQL: SELECT * FROM `sk_userinfo` WHERE `user_id` = 7 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `sk_userinfo` WHERE `user_id` = 6 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2016-06-14T14:44:02+08:00 ] ::1 /snailkids.php/Api/Video/index/videoId/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000837s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000946s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001149s ]
+SQL: SHOW COLUMNS FROM `sk_video` [ RunTime:0.0095s ]
+SQL: SELECT * FROM `sk_video` WHERE `id` = 1 AND `enable` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `sk_videopraise` [ RunTime:0.0076s ]
+SQL: SELECT * FROM `sk_videopraise` WHERE `video_id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `sk_userinfo` [ RunTime:0.0076s ]
+SQL: SELECT * FROM `sk_userinfo` WHERE `user_id` = 7 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `sk_userinfo` WHERE `user_id` = 6 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2016-06-14T14:44:06+08:00 ] ::1 /snailkids.php/Api/Video/index/videoId/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000613s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000873s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001039s ]
+SQL: SHOW COLUMNS FROM `sk_video` [ RunTime:0.0105s ]
+SQL: SELECT * FROM `sk_video` WHERE `id` = 1 AND `enable` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `sk_videopraise` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `sk_videopraise` WHERE `video_id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `sk_userinfo` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `sk_userinfo` WHERE `user_id` = 7 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `sk_userinfo` WHERE `user_id` = 6 LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2016-06-14T14:56:36+08:00 ] ::1 /snailkids.php/Api/Video/index/videoId/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000751s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001176s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001354s ]
+SQL: SHOW COLUMNS FROM `sk_video` [ RunTime:0.0091s ]
+SQL: SELECT * FROM `sk_video` WHERE `id` = 1 AND `enable` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `sk_userinfo` [ RunTime:0.0085s ]
+SQL: SHOW COLUMNS FROM `sk_videopraise` [ RunTime:0.0066s ]
+SQL: SELECT * FROM `sk_videopraise` WHERE `video_id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `sk_userinfo` WHERE `user_id` = 7 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `sk_userinfo` WHERE `user_id` = 6 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `sk_videocomment` [ RunTime:0.0091s ]
+SQL: SELECT * FROM `sk_videocomment` WHERE `video_id` = 1 AND `enable` = 1 ORDER BY comment_time desc LIMIT 5   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `sk_userinfo` WHERE `user_id` = 6 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2016-06-14T14:56:41+08:00 ] ::1 /snailkids.php/Api/Video/index/videoId/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000618s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000874s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001023s ]
+SQL: SHOW COLUMNS FROM `sk_video` [ RunTime:0.0086s ]
+SQL: SELECT * FROM `sk_video` WHERE `id` = 1 AND `enable` = 1 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `sk_userinfo` [ RunTime:0.0086s ]
+SQL: SHOW COLUMNS FROM `sk_videopraise` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `sk_videopraise` WHERE `video_id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `sk_userinfo` WHERE `user_id` = 7 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `sk_userinfo` WHERE `user_id` = 6 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `sk_videocomment` [ RunTime:0.0094s ]
+SQL: SELECT * FROM `sk_videocomment` WHERE `video_id` = 1 AND `enable` = 1 ORDER BY comment_time desc LIMIT 5   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `sk_userinfo` WHERE `user_id` = 6 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2016-06-14T15:17:21+08:00 ] ::1 /snailkids.php/Api/Video/index/videoId/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000591s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000963s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001093s ]
+SQL: SHOW COLUMNS FROM `sk_video` [ RunTime:0.0092s ]
+SQL: SELECT * FROM `sk_video` WHERE `id` = 1 AND `enable` = 1 LIMIT 1   [ RunTime:0.0005s ]
+

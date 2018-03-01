@@ -1,0 +1,12 @@
+[ 2016-06-04T11:58:17+08:00 ] ::1 /snailkids.php/Admin/Area/__CONTROLLER__/province/p/1/order/name
+ERR: 非法操作:__CONTROLLER__
+
+[ 2016-06-04T11:58:47+08:00 ] ::1 /snailkids.php/Admin/Area/__CONTROLLER__/province/p/1/order/id_desc
+ERR: 非法操作:__CONTROLLER__
+
+[ 2016-06-04T14:36:08+08:00 ] ::1 /snailkids.php/Admin/Area/province
+ERR: XML标签语法错误 : name="index" value=1 
+
+[ 2016-06-04T22:32:52+08:00 ] ::1 /snailkids.php/Admin/Area/province
+ERR: XML标签语法错误 : start="1" end={$totalPage} comparison="elt"
+

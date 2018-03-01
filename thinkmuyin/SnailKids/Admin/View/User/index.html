@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title>User</title>
+    <!--<link href="{$Think.const.ADMIN_PUBLIC_CSS}bootstrap.min.css" rel="stylesheet" type="text/css">-->
+    <link rel="stylesheet" type="text/css" href="//cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap.min.css"/>
+    <link href="{$Think.const.ADMIN_PUBLIC_CSS}sk_common.css" rel="stylesheet">
+    <script src="{$Think.const.ADMIN_PUBLIC_JS}jquery-2.2.4.min.js"></script>
+    <script src="{$Think.const.ADMIN_PUBLIC_JS}bootstrap.min.js"></script>
+    <script type="text/javascript">
+    	$(document).ready(function(){			
+	
+			$("#whereSelect").change(function(){
+				$provinceId = $("#whereSelect").val();
+				var href = "__CONTROLLER__/index/p/1/where/" + $("#whereSelect").val() + "/order/id_desc";
+				location.href = href;
+			});
+			
+			$("#addUser").click(function(){
+				location.href = "__CONTROLLER__/add/p/{$pageNow}/where/{$where}/order/{$order}";
+			});
+    	});
+    </script>
+</head>
+<body>
+
+<div class="container-fluid" style="padding: 15px;">
+	<div class="row">
+		<div class="col-xs-6 sk_col text-left" style="font-size: 14px;">
+			<span class="glyphicon glyphicon-tags"></span>&nbsp;&nbsp;<b>用户管理</b>&nbsp;&nbsp;<small style="color: #999999;">User management</small>
+		</div>
+		<div class="col-xs-6 sk_col text-right" style="color: #444444;">
+			<span class="glyphicon glyphicon-home"></span>&nbsp;&nbsp;Home&nbsp;&nbsp;&rsaquo;&nbsp;&nbsp;
+			<span class="glyphicon glyphicon-user"></span>&nbsp;&nbsp;User&nbsp;&nbsp;&rsaquo;&nbsp;&nbsp;
+			List
+		</div>
+	</div>
+	
+	<div class="row" style="margin-top: 15px;">
+		
+		<!-- list -->
+		<div class="col-xs-12 sk_col">
+			<div class="sk_option_back" style="border-top-color: #F39C12;">
+				<div class="row" style="height:30px; line-height:30px;border-bottom: 1px dotted #EEEEEE;">
+					<div class="col-xs-6 sk_col">用户列表</div>
+					<div class="col-xs-6 sk_col text-right">
+						<a id="addUser" href="#" class="btn-primary sk_addbtn"><span class="glyphicon glyphicon-edit"></span>&nbsp;&nbsp;添加用户</a>
+					</div>
+				</div>
+				<div style="clear: both;"></div>
+				
+				<!-- 表格描述 -->
+				<div class="row" style="margin-top: 5px; padding: 10px 0px;">
+					<div class="col-xs-6 sk_col" style="font-weight: bold; color: #333333;">
+						当前用户表数据
+						<if condition="$count gt 0">
+							&nbsp;-&nbsp;<span class="sk_thead_oTitle">{$orders.$order.tag}</span>
+							&nbsp;-&nbsp;共{$count}条数据</span>
+						</if>
+					</div>
+					<div class="col-xs-6 sk_col">
+						<select id="whereSelect" class="form-control sk_input pull-right" style="width: auto; height: 25px; line-height: 25px;">
+						<foreach name="wheres" item="v" key="k" >
+   							<option <if condition="$k eq $where">selected="selected"</if> value="{$k}">{$v.tag}</option>
+						</foreach>
+						</select>
+					</div>
+				</div>
+				
+				<if condition="$count eq 0">
+					<div style="margin-top: 15px; color: #AAAAAA;">No data...</div>
+				<else />
+					<!-- 显示table数据 -->
+					<table class="table table-bordered" style="margin: 0px;">
+						<!-- 表格头 -->
+						<thead>
+		      				<tr>
+		         				<th>#</th>
+		         				<th>
+		         					<span class="sk_thead_title">ID</span>
+		         					<switch name="order">
+		         						<case value="id"><a href="__CONTROLLER__/index/p/1/where/{$where}/order/id_desc" class="sk_thead_link_cur"><span class="glyphicon glyphicon-sort-by-attributes"></span></case>
+		         						<case value="id_desc"><a href="__CONTROLLER__/index/p/1/where/{$where}/order/id" class="sk_thead_link_cur"><span class="glyphicon glyphicon-sort-by-attributes-alt"></span></case>
+		         						<default /><a href="__CONTROLLER__/index/p/1/where/{$where}/order/id" class="sk_thead_link"><span class="glyphicon glyphicon-sort"></span></a>
+		         					</switch>
+		         				</th>
+		         				<th>用户名</th>
+		         				<th>注册渠道</th>
+		         				<th>
+		         					<span class="sk_thead_title">注册时间</span>
+		         					<switch name="order">
+		         						<case value="regist_time"><a href="__CONTROLLER__/index/p/1/where/{$where}/order/regist_time_desc" class="sk_thead_link_cur"><span class="glyphicon glyphicon-sort-by-attributes"></span></case>
+		         						<case value="regist_time_desc"><a href="__CONTROLLER__/index/p/1/where/{$where}/order/regist_time" class="sk_thead_link_cur"><span class="glyphicon glyphicon-sort-by-attributes-alt"></span></case>
+		         						<default /><a href="__CONTROLLER__/index/p/1/where/{$where}/order/regist_time" class="sk_thead_link"><span class="glyphicon glyphicon-sort"></span></a>
+		         					</switch>
+		         				</th>
+		         				<th>
+		         					<span class="sk_thead_title">最近登录时间</span>
+		         					<switch name="order">
+		         						<case value="login_time"><a href="__CONTROLLER__/index/p/1/where/{$where}/order/login_time_desc" class="sk_thead_link_cur"><span class="glyphicon glyphicon-sort-by-attributes"></span></case>
+		         						<case value="login_time_desc"><a href="__CONTROLLER__/index/p/1/where/{$where}/order/login_time" class="sk_thead_link_cur"><span class="glyphicon glyphicon-sort-by-attributes-alt"></span></case>
+		         						<default /><a href="__CONTROLLER__/index/p/1/where/{$where}/order/login_time" class="sk_thead_link"><span class="glyphicon glyphicon-sort"></span></a>
+		         					</switch>
+		         				</th>
+		         				<th>可用性</th>
+		         				<th>资料完善</th>
+		         				<th>选项	</th>
+		      				</tr>
+	   					</thead>
+	   					
+	   					<!-- 表格体 -->
+	   					<tbody>
+	   						<volist name="list" id="v">
+	   							<tr>
+	   								<td>{$i}.</td>
+	   								<td>{$v.id}</td>
+	   								<td>{$v.username}</td>
+	   								<td>
+	   									<switch name="v.channel">
+	   										<case value="0">测试用户</case>
+	   										<case value="1">手机注册</case>
+	   										<case value="2">QQ注册</case>
+	   										<case value="3">微信注册</case>
+	   										<case value="4">微博注册</case>
+	   									</switch>
+	   								</td>
+	   								<td>{$v.regist_time|date="m-d H:i",###}</td>
+	   								<td>{$v.login_time|date="m-d H:i",###}</td>
+	   								<td>
+	   									<switch name="v.enable">
+	   										<case value="0"><span class="glyphicon glyphicon-thumbs-down" style="color: red;"></span>&nbsp;&nbsp;黑名单用户</case>
+	   										<case value="1"><span class="glyphicon glyphicon-thumbs-up" style="color: green;"></span>&nbsp;&nbsp;白名单用户</case>
+	   									</switch>
+	   								</td>
+									<td>
+	   									<switch name="v.info_complete">
+	   										<case value="0"><span class="glyphicon glyphicon-remove" style="color: red;"></span>&nbsp;&nbsp;未完善</case>
+	   										<case value="1"><span class="glyphicon glyphicon-ok" style="color: green;"></span>&nbsp;&nbsp;已完善</case>
+	   									</switch>
+	   								</td>
+	   								<td>
+	   									<if condition="$v.channel eq 0">
+	   										<a href="__CONTROLLER__/edit/id/{$v.id}/p/{$pageNow}/where/{$where}/order/{$order}" class="sk_table_ooption"><span class="glyphicon glyphicon-pencil"></span>&nbsp;&nbsp;编辑</a>
+	   									<else />
+	   										<a href="__CONTROLLER__/show/id/{$v.id}/p/{$pageNow}/where/{$where}/order/{$order}" class="sk_table_ooption"><span class="glyphicon glyphicon-eye-open"></span>&nbsp;&nbsp;查看</a>
+	   									</if>
+	   								</td>
+	   							</tr>
+	   						</volist>
+	   					</tbody>
+	   				</table>
+	   				
+	   				<nav style="margin-top: 10px;" class="text-right">
+  						<ul class="pagination pagination-sm" style="margin: 0px;">
+						<if condition="($pageNow eq 1)">
+							<li class="disabled"><a href="#" aria-label="Previous"><span aria-hidden="true">&laquo;</span></a></li>
+						<else />
+							<li><a href="__CONTROLLER__/index/p/{$pageNow-1}/where/{$where}/order/{$order}" aria-label="Previous"><span aria-hidden="true">&laquo;</span></a></li>
+						</if>
+					    <for start="1" end="$pageCount" comparison="elt">
+					    	<if condition="($i eq $pageNow)">
+					    		<li class="active"><a href="__CONTROLLER__/index/p/{$i}/where/{$where}/order/{$order}">{$i}</a></li>
+					    	<else />
+					    		<li><a href="__CONTROLLER__/index/p/{$i}/where/{$where}/order/{$order}">{$i}</a></li>
+					    	</if>
+						</for>
+						<if condition="($pageNow eq $pageCount)">
+							<li class="disabled"><a href="#" aria-label="Next"><span aria-hidden="true">&raquo;</span></a></li>
+						<else />
+							<li><a href="__CONTROLLER__/index/p/{$pageNow+1}/where/{$where}/order/{$order}" aria-label="Next"><span aria-hidden="true">&raquo;</span></a></li>
+						</if>
+  						</ul>
+					</nav>
+	   				
+				</if>
+
+			</div>
+		</div>
+		
+	</div>
+	
+</div>
+
+</body>
+</html>
